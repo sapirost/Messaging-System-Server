@@ -30,7 +30,7 @@ export class AuthenticationDal {
     }
 
     private getUserToken(id: string, email: string): string {
-        const { jwtAppSecret, jwtExpireTime: expiresIn } = this.config.Authentication;
+        const { jwtAppSecret, jwtExpireTime: expiresIn } = this.config.authentication;
 
         return sign({ id, email }, jwtAppSecret, { expiresIn });
     }

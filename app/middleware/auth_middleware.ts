@@ -21,7 +21,7 @@ export class AuthMiddleware extends BaseMiddleware {
             return next(new ApplicationException(ExceptionCode.UNAUTHORIZED, 'Unauthorized'));
         }
 
-        verify(token.toString(), config.Authentication.jwtAppSecret, (err: any, user: any) => {
+        verify(token.toString(), config.authentication.jwtAppSecret, (err: any, user: any) => {
             if (err) {
                 return next(new ApplicationException(ExceptionCode.UNAUTHORIZED, 'Unauthorized'));
             }
