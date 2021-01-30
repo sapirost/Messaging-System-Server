@@ -5,11 +5,11 @@
         "morganFormat": "dev"
     },
     "Authentication": {
-        "jwtAppSecret": "fsdg87gw43hr34hj3yj",
+        "jwtAppSecret": "",
         "jwtExpireTime": 604800
     },
-    "firebaseService": {
-        "apiKey": "AIzaSyCdBJa2VVaRa3SNUMQWl1MW0cFWIBwmygo",
+    "FirebaseService": {
+        "apiKey": "",
         "authDomain": "messaging-system-72143.firebaseapp.com",
         "databaseURL": "https://messaging-system-72143-default-rtdb.europe-west1.firebasedatabase.app/"
     }

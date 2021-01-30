@@ -36,7 +36,6 @@ server.setErrorConfig((eApp) => {
 
 // Initialize third party database
 firebase.initializeApp(config.firebaseService);
-console.log("🚀 ~ file: server.ts ~ line 44 ~ config.firebaseService", config.firebaseService)
 
 const appPort = process.env.PORT || config.system.serverPort || 3000;
 

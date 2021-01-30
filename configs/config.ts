@@ -25,7 +25,6 @@ const configuration = {
             configuration.getDefaults(),
             configuration.getEnvironment(nodeEnv),
             configuration.getGlobals()
-
         );
 
         return conf;
@@ -71,7 +70,6 @@ const configuration = {
 
     getGlobals() {
         const glob = {};
-        console.log("process.env", process.env)
 
         Object.keys(process.env).forEach(key => set(glob, configuration.normalizeKey(key), configuration.getParseValue(process.env[key])));
 
