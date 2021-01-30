@@ -4,11 +4,11 @@
         "appName": "Messaging-System",
         "morganFormat": "dev"
     },
-    "Authentication": {
+    "authentication": {
         "jwtAppSecret": "",
         "jwtExpireTime": 604800
     },
-    "FirebaseService": {
+    "firebaseService": {
         "apiKey": "",
         "authDomain": "messaging-system-72143.firebaseapp.com",
         "databaseURL": "https://messaging-system-72143-default-rtdb.europe-west1.firebasedatabase.app/"
