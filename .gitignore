@@ -1,0 +1,40 @@
+#### Specific ###
+public/js/temp
+
+#Exclude tsc generated files
+*.map
+*.js
+
+### Global ###
+*.log
+.DS_Store
+Thumbs.db
+npm-debug.log
+node_modules/
+/vendor
+.sass-cache
+.gulp
+
+### Bower ###
+bower_components
+.bower-cache
+.bower-registry
+.bower-tmp
+
+
+### Ideas ###
+.idea
+.idea/*
+*.sublime-workspace
+
+# *.sublime-project
+sftp-config.json
+
+static/
+dist/
+.vscode/settings.json
+dist/
+
+.vscode
+.vscode/settings.json
+alphabetize

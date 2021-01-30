@@ -1,0 +1,69 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended",
+        "tslint-config-airbnb",
+        "tslint-config-prettier"
+    ],
+    "jsRules": {},
+    "rules": {
+        "variable-name": [
+            true,
+            "check-format",
+            "allow-leading-underscore"
+        ],
+        "no-console": true,
+        "newline-before-return": true,
+        "promise-function-async": true,
+        "no-boolean-literal-compare": true,
+        "object-literal-sort-keys": false,
+        "only-arrow-functions": true,
+        "semicolon": true,
+        "prefer-array-literal": [
+            true,
+            {
+                "allow-type-parameters": true
+            }
+        ],
+        "max-line-length": [
+            true,
+            {
+                "limit": 150,
+                "check-strings": true,
+                "check-regex": true
+            }
+        ],
+        "indent": [
+            true,
+            "spaces",
+            4
+        ],
+        "member-ordering": [
+            true,
+            {
+                "order": [
+                    "public-static-field",
+                    "public-instance-field",
+                    "protected-static-field",
+                    "protected-instance-field",
+                    "private-static-field",
+                    "private-instance-field",
+                    "constructor",
+                    "public-static-method",
+                    "protected-static-method",
+                    "public-instance-method",
+                    "protected-instance-method",
+                    "private-static-method",
+                    "private-instance-method"
+                ],
+                "alphabetize": true
+            }
+        ],
+        "ordered-imports": false
+    },
+    "linterOptions": {
+        "exclude": [
+            "node_modules/**"
+        ]
+    }
+}

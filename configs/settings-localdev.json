@@ -1,0 +1,7 @@
+{
+    "system": {
+        "serverPort": 3000,
+        "frontEndUrl": "http://localhost:4200",
+        "backEndUrl": "http://localhost:3000"
+    }
+}

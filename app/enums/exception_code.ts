@@ -1,0 +1,9 @@
+export enum ExceptionCode {
+    BAD_REQUEST = 400,
+    NOT_FOUND = 404,
+    UNAUTHORIZED = 401,
+    INTERNAL_SERVER = 500,
+    FORBIDDEN = 403,
+    METHOD_NOT_ALLOWED = 405,
+    ALREADY_EXIST = 409,
+}
