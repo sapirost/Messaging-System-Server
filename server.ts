@@ -23,7 +23,7 @@ const server = new InversifyExpressServer(container, null, null, expressApp);
 server.setConfig((eApp) => {
     eApp.use(morgan(config.system.morganFormat));
     eApp.use(helmet());
-    eApp.use(cors({ origin: [/localhost/i, /messaging-system\.com/i] }));
+    eApp.use(cors({ origin: [/localhost/i, /messaging-communication-system.herokuapp\.com/i] }));
     eApp.use(express.urlencoded({ extended: true, limit: '5mb' }));
     eApp.use(express.json({ limit: '5mb' }));
     expressApp.use(compression());

@@ -19,6 +19,6 @@
     "noUnusedParameters": true,
     "skipLibCheck": true
   },
-  "include": ["**/*.ts"],
+  "include": ["**/*.ts", "configs/**/*.json"],
   "exclude": ["node_modules", "dist"]
 }
