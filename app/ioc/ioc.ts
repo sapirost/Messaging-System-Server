@@ -1,4 +1,3 @@
-// import 'reflect-metadata';
 import { Container, decorate, inject, injectable, interfaces } from 'inversify';
 import { buildProviderModule, fluentProvide, provide } from "inversify-binding-decorators";
 import getDecorators from 'inversify-inject-decorators'; // tslint:disable-line:import-name

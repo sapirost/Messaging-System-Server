@@ -11,7 +11,6 @@ import { container, loadServices } from './app/ioc/ioc';
 import './app/ioc/loader';
 import { TYPES } from './app/ioc/types';
 import { handleError } from './app/middleware/error_middleware';
-// import * as bodyParser from 'body-parser';
 import morgan from 'morgan';
 import firebase from 'firebase';
 

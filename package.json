@@ -6,8 +6,8 @@
   "scripts": {
     "start": "node dist/server.js",
     "build": "tsc",
-    "_postinstall": "npm run build",
-    "tslint": "tslint -c tslint.json --project"
+    "tslint": "tslint -c tslint.json --project",
+    "heroku-postbuild": "npm run build"
   },
   "keywords": [],
   "author": "",
